@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="id"> 
+ <head> 
+  <meta charset="UTF-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <title>Undangan Pernikahan</title> 
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&amp;display=swap" rel="stylesheet"> 
+  <style>
+        body {
+            font-family: 'Montserrat', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #f0f0f0, #e0eafc);
+            color: #333;
+        }
+        header {
+            background: #ff4081; /* Warna latar belakang cerah */
+            padding: 20px;
+            text-align: center;
+            color: white;
+            border-bottom: 5px solid #00bcd4; /* Garis bawah kontras */
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+            position: relative;
+        }
+        header h1 {
+            font-size: 2.5em;
+            margin: 0;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+        .container {
+            max-width: 600px;
+            margin: 30px auto;
+            padding: 30px;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 8px 40px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+        .container::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 15px;
+            z-index: 1;
+            filter: blur(15px);
+        }
+        .content {
+            position: relative;
+            z-index: 2; /* Mengatur konten di atas layer blur */
+        }
+        img.profile {
+            width: 150px;
+            height: auto;
+            border-radius: 50%;
+            margin: 20px 0;
+            border: 3px solid #00bcd4;
+            box-shadow: 0 4px 20px rgba(0, 188, 212, 0.5);
+        }
+        footer {
+            text-align: center;
+            padding: 15px;
+            background: #ff4081;
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+            border-top: 5px solid #00bcd4;
+        }
+        a {
+            color: #00bcd4;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+        a:hover {
+            text-decoration: underline;
+            color: #ffcc00; /* Warna saat hover */
+        }
+        h2 {
+            color: #00bcd4;
+            margin: 10px 0;
+        }
+        h3 {
+            margin: 10px 0;
+            color: #333;
+        }
+        .floral-decoration {
+            width: 100%;
+            max-width: 300px;
+            margin: 20px auto;
+        }
+        .ornament {
+            width: 100%;
+            max-width: 600px;
+            margin: 20px auto;
+        }
+    </style> 
+ </head> 
+ <body> 
+  <header> 
+   <h1>Undangan Pernikahan</h1> 
+  </header> 
+  <div class="container"> 
+   <div class="content"> 
+    <h2>Dengan Hormat,</h2> 
+    <p>Kami mengundang Anda untuk merayakan hari bahagia kami.</p> 
+    <h3>Hendra &amp; Edo</h3> <!-- Nama Pengantin --> <!-- Ganti URL di bawah dengan URL foto Anda --> 
+    <img src="https://drive.google.com/uc?id=1Lx2WPOY9usDy9Ip8jOQx2xEvLtP_Etre
+" alt="Foto Anda" class="profile"> 
+    <p>Hari, Tanggal: 12 Oktober 2024<br>Waktu: 13:00 WIB<br>Tempat: Langgar Nurul Huda</p> <!-- Tempat diubah --> 
+    <p><a href="https://www.google.com/maps" target="_blank">Klik di sini untuk melihat lokasi</a></p> <!-- Elemen dekoratif --> 
+    <img src="https://source.unsplash.com/300x200/?flowers" alt="Dekorasi Bunga" class="floral-decoration"> <!-- Hiasan ornamen --> 
+    <img src="https://source.unsplash.com/600x100/?floral" alt="Hiasan Ornamen" class="ornament"> 
+   </div> 
+  </div> 
+  <footer> 
+   <p>Datanglah buhannya ke kawinan ku</p> 
+  </footer> 
+ </body>
+</html>
